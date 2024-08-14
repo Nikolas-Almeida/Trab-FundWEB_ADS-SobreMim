@@ -1,0 +1,12 @@
+/* Configurações do rodapé */
+footer {
+    background-color: var(--cinza-escuro);
+    font-size: 1.75rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer a {
+    color: var(--amarelo);
+    text-decoration: none;
+}

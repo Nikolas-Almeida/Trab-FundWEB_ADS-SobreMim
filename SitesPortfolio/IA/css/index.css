@@ -1,0 +1,284 @@
+/* Textos */
+/* Gradiente do background */
+body {
+    font-family: 'Zilla Slab', serif;
+    color: #dbdbdb;
+    background: linear-gradient(0, #132C33,#126E82, #327b85, #126E82, #132C33);
+}
+
+p {
+    font-size: 20px;
+    text-indent: 4%;
+    margin: 1% 0 0 0;
+    padding: 7px;
+    display: inline-block;
+}
+
+.titulo_principal {
+    padding: 50px 0 0 0;
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.subtitulo_2 {
+    font-size: 1.7em;
+    margin: 30px 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo_3 {
+    font-size: 1.4em;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Imagens */
+.img_cabecalho {
+    position: relative;
+    width: 100%;
+    margin: auto 0;
+}
+
+/* Parte da história */
+#titulo_historia {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.historia {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 0;
+    padding: 0 10% 2% 10%
+}
+
+.img_historia {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0
+}
+
+.txt_historia {
+    padding: 0 20px 0 0;
+    text-align: justify;
+    text-indent: 4%;
+}
+
+/* .1 - Tecnologia por tras da IA*/
+.principais_tecnologias {
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 5px solid#132C33;
+    border-radius: 8px;
+}
+
+#titulo_tecnologias {
+    margin-top: 40px;
+}
+
+/* .2 - ML */
+#titulo_ml, #titulo_dl {
+    text-align: center;
+    margin: 40px 0 1% 0;
+}
+
+.machine_learning {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20% 0 20%;
+    align-items: center;
+
+}
+
+.machine_learning .img_ml {
+    height: 15em;
+    display: inline-block;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+}
+
+.machine_learning .txt_ml_1 {
+    padding: 0 20px 0 20px;
+    margin: 0;
+    text-align: right
+}
+
+.machine_learning .txt_ml_2 {
+    padding: 0 20px 0 20px;
+    margin: 0;
+    text-align: left
+}
+
+/* .3 Deep Learning */
+.deep_learning {
+    display: flex;
+    flex-direction: row;
+    margin: 0 13% 0 13%;
+    padding: 1%;
+    align-items: center;
+}
+
+.deep_learning .img_dl {
+    height: 220px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+}
+
+.txt_dl {
+    padding: 0 2.5%;
+    text-align: justify;
+}
+
+.deep_learning .img_rede_neural {
+    height: 250px;
+}
+
+/* Beneficios */
+/* Melhor tomada de decisão */ 
+#beneficios {
+    padding: 60px 0 0 0;
+}
+
+.container_decisoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_tomada_de_decisao {
+    height: 200px;
+    margin: 0 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+}
+
+#titulo_decisoes {
+    text-align: center;
+}
+
+.txt_decisoes {
+    width: 400px;
+    text-align: justify;
+}
+
+/* Comodidade e escalabilidade */
+.container_comodidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}
+
+#titulo_comodidade {
+    text-align: center;
+    margin: 100px 0 15px 0;
+}
+
+.img_comodidade {
+    width: 25%;
+    margin: 0 10px 0 0;
+    width: 20%;
+}
+
+.txt_comodidade {
+    width: 25%;
+    text-align: justify;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.img_escalabilidade {
+    width: 25%;
+    margin: 0 1%;
+    width: 20%;
+    padding: 0 10px 0 40px;
+}
+
+.txt_escalabilidade {
+    width: 25%;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+/* Redução de erros */
+.container_reducao_riscos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 5% 0 5%;
+}
+
+.img_monitoramento {
+    width: 25%;
+    vertical-align: sub;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+}
+
+#titulo_reducao_riscos {
+    text-align: center;
+}
+
+.txt_reducao_riscos {
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.img_robo_acoes {
+    width: 25%;    
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+}
+
+/* setores de aplicação da IA */
+.container_setores_IA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin: 100px;
+    width: auto;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #2C3333,#395B64, #126E82, #126E82, #395B64, #2C3333);
+    background-size: 300% 300%;
+    animation: colors 20s ease infinite;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.541);
+} 
+
+@keyframes colors {
+    0% {
+        background-position: 0% 40%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#titulo_setores {
+    text-align: center;
+    width: 100%;
+}
+
+#pop_up_1 {
+    width: 40%;
+}
+
+#pop_up_2 {
+    width: 50%;
+}
+
+#pop_up_3 {
+    width: 40%;
+    margin-top: 20px;
+}
+
+#pop_up_4 {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

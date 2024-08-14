@@ -1,0 +1,20 @@
+/* Definições para serem usadas em todos os arquivos */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    --amarelo: #F4CE14;
+    --branco: #DDDDDD;
+    --cinza-claro: #686D76;
+    --cinza-escuro: #373A40;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: monospace; 
+    font-size: 2rem;
+}

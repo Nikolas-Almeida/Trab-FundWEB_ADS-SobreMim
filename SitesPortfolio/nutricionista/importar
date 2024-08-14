@@ -1,0 +1,7 @@
+echo "# leticiaNutricao" >> README.md
+git init
+git add README.md
+git commit -m "primeiro commit"
+ramo git -M principal
+git remote add origin https://github.com/Nikolas-Almeida/leticiaNutricao.git
+git push -u origem principal

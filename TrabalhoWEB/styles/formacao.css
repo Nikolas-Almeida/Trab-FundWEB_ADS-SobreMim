@@ -1,0 +1,44 @@
+/* Definindo e estilizando o card */
+.ensino {
+    border-bottom: .75rem solid var(--amarelo);
+    border-left: .75rem solid var(--amarelo);
+    border-radius: 2rem;
+    box-shadow: .5rem .5rem;
+    margin-left: 10rem;
+    padding: 2rem 1rem;
+    width: max-content;
+}
+
+/* Estilizando o conteúdo do card */
+section .ensino:first-child {
+    margin-top: 1.5rem;
+}
+
+section .ensino:last-child {
+    margin-top: 5rem;
+}
+
+.ensino h2 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.ensino p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.ensino p:nth-child(2) {
+    font-size: 2.175rem;
+    text-align: center;
+}
+
+/* Fixando o rodapé no final da página */
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.logo_cabecalho {
+    width: 10%;
+}
+
+@media screen and (min-width: 0) {
+    .logo_cabecalho {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo_cabecalho {
+        display: block;
+    }
+}

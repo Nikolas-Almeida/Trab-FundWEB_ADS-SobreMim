@@ -1,0 +1,57 @@
+/* Apresentação inicial */
+.eu {
+    display: grid;
+    grid-template-areas:     "img texto_1"    "img texto_2";
+    margin: 0 28rem;
+}
+
+.eu img {
+    grid-area: img;
+    width: 20rem;
+}
+
+.eu p {
+    padding: 3.75rem 1.5rem;
+}
+
+/* Motociclismo */
+.motociclismo {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+    padding: 0 30rem;
+}
+
+#eu-moto {
+    width: 17.5rem;
+}
+
+.motociclismo p {
+    margin: 4rem 1.5rem;
+}
+
+/* Natureza */
+.natureza {
+    display: flex;
+    margin: 0 35rem;
+}
+
+.natureza img {
+    height: 27.5rem;
+    width: 15rem;
+}
+
+.natureza p {
+    margin: 10rem 1rem;
+
+}
+
+.natureza #familia {
+    border-right: solid .25rem white;
+    padding-right: 1.5rem;
+    text-align: left;
+}
+
+.natureza #praia {
+    text-align: end;
+}

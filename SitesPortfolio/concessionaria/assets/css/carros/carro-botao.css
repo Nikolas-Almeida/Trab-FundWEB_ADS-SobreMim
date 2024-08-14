@@ -1,0 +1,13 @@
+.carro__botao {
+    background: #8d0607;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .25s ease-in-out;
+}
+
+.carro__botao:hover {
+    background: #620404;
+    cursor: pointer;
+}

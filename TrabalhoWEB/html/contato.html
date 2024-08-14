@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/global.css">
+        <link rel="stylesheet" href="../styles/menu.css">
+        <link rel="stylesheet" href="../styles/titulo.css">
+        <link rel="stylesheet" href="../styles/rodape.css">
+        <link rel="stylesheet" href="../styles/contato.css">
+        <title>Contate-me</title>
+    </head>
+    <body>
+        <!-- Menu de navegação -->
+        <header id="1">
+            <ul class="lista">
+                <li><a href="../../index.html" class="itemLista">Sobre mim</a></li>
+                <li><a href="./formacao.html" class="itemLista">Formação acadêmica</a></li>
+                <li><a href="./portifolio.html" class="itemLista">Portifólio pessoal</a></li>
+                <li><a href="./contato.html" class="itemLista">Contato</a></li>
+            </ul>
+        </header>
+        <!-- Título principal -->
+        <div class="titulo">
+            <h1>Fale comigo!</h1>
+        </div>
+        <!-- Formulário para contato -->
+        <form action="#" class="form">
+            <div class="card">
+                <h2>Entre em contato</h2>
+                <p>
+                    <img src="../assets/icone-tel.png" alt="Icone de telefone">
+                    (11) 99588-7641
+                </p>
+                <p>
+                    <img src="../assets/icone-email.png" alt="Icone de email">
+                    nikdealmeida26@gmail.com
+                    <i class="fa-solid fa-envelope" style="color: #fafafa;"></i>
+                </p>
+                <!-- Recebendo dados para retornar contato -->
+                <h2>Ou deixe sua mensagem</h2>
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome completo">
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="Seu melhor e-mail">
+                </div>
+                <div class="numero">
+                    <label for="numero">Telefone</label>
+                    <input type="text" name="numero" placeholder="(00) 00000-0000">
+                </div>
+                <div class="mensagem">
+                    <label for="mensagem">Deixe sua mensagem</label>
+                    <textarea name="mensagem" style="width: 25rem;" cols="10" rows="4" placeholder="Insira sua  mensagem"></textarea>
+                </div>      
+                <div class="botao">
+                    <input type="button" value="Enviar" id="botao">
+                </div>      
+            </div>
+        </form>
+        <!-- Rodapé -->
+        <footer>
+            <a href="#1">by Nikolas de Almeida</a>
+        </footer>
+    </body>
+</html>

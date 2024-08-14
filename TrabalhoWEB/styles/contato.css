@@ -1,0 +1,70 @@
+/* Centralizando o card */
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilizando o card */
+.card {
+    background-color: var(--cinza-claro);
+    border-radius: 3.5rem;
+    border: solid .2rem var(--amarelo);
+    box-shadow: 0 0 .5rem var(--amarelo);
+    color: var(--branco);
+    padding: 2rem 4rem;
+}
+
+/* Deixando o formulário em coluna */
+.card div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilizando o conteúdo dos labels e inputs */
+.card h2 {
+    color: var(--amarelo);
+    text-align: center;
+}
+
+.card h2:nth-child(4) {
+    margin-top: 2rem;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card p img {
+    width: 2.5rem;
+}
+
+.card div input,
+.card div textarea {
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 25rem;
+}
+
+/* Estilizando o botão */
+.card #botao {
+    background-color: var(--cinza-escuro);
+    border: solid .25rem var(--amarelo);
+    box-shadow: 0 0 .2rem var(--amarelo);
+    color: var(--branco);
+    font-size: 1.6rem;
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    width: fit-content;
+}
+
+/* Fixando o rodapé no final da página */
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}

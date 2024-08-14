@@ -1,0 +1,35 @@
+/* Definindo como os cards ficarão */
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Estilizando o card */
+section .card {
+    background-color: var(--cinza-claro);
+    border-radius: 3.5rem;
+    border: solid .25rem var(--cinza-escuro);
+    height: 25%;
+    margin: 2.5rem 12%;
+    padding-bottom: 2rem;
+    width: 25%;
+}
+
+/* Definindo como o conteúdo do card ficará */
+section .card a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section .card a h2 {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+section .card a img {
+    border-radius: 1.5rem;
+    margin-top: .5rem;
+    width: 90%;
+}
